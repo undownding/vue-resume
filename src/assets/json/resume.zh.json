@@ -6,16 +6,8 @@
     "aboutMe": "Co-chair of the Bill & Melinda Gates Foundation. Founder of Breakthrough Energy. Co-founder of Microsoft. Voracious reader. Avid traveler. Active blogger.",
     "socialNetwork": [
       {
-        "name": "Twitter",
-        "url": "https://twitter.com/billgates"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/williamhgates"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/thisisbillgates/"
+        "name": "GitHub",
+        "url": "https://github.com/undownding"
       }
     ]
   },

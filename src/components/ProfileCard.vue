@@ -34,7 +34,7 @@ const showProfileImage = () => {
         <div>
           <div class="text-lg font-bold text-gray-900 dark:text-night-50">{{ resume.profile.name }}</div>
           <div class="text-xs text-gray-400 dark:text-night-200">{{ resume.profile.job }}</div>
-          <div class="mt-2 inline-flex flex-wrap gap-1">
+          <div class="mt-2 inline-flex flex-wrap gap-1" v-if="false">
             <a
               v-for="(social, index) of resume.profile.socialNetwork"
               :href="social.url"

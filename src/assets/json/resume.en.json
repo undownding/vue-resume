@@ -1,88 +1,82 @@
 {
   "profile": {
-    "name": "Bill Gates",
-    "job": "Co-chair, Bill & Melinda Gates Foundation",
+    "name": "赵日天",
+    "job": "Full-stack Developer",
     "avatar": "img/profile/me.jpg",
-    "aboutMe": "Co-chair of the Bill & Melinda Gates Foundation. Founder of Breakthrough Energy. Co-founder of Microsoft. Voracious reader. Avid traveler. Active blogger.",
+    "aboutMe": "你好，我是日天。我是一名全栈开发工程师，近年主要活跃在 Typescript 后端开发领域，曾主导过数万日活在线业务系统的后端设计。早年间使用 Kotlin 参与过一些 Android 应用的开发，所以现在偶尔会在必要时帮忙维护 Springboot 项目的代码。近期在钻研如何在大语言模型中做 RAG 优化，希望能让这个世界变得美好一点 : ) 作为一个全栈开发我觉得可能做个网页作为展示自己的方式比较有说服力（主要觉得还是写代码比写简历舒服多了），所以就做了这个页面。",
     "socialNetwork": [
       {
-        "name": "Twitter",
-        "url": "https://twitter.com/billgates"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/williamhgates"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/thisisbillgates/"
+        "name": "GitHub",
+        "url": "https://github.com/undownding"
       }
     ]
   },
   "cv": {
     "icon": "DocumentTextIcon",
     "name": "PDF & DOC",
-    "value": "Bill Gates",
-    "url": "https://dl.lanno.dev/share/GppwRUSq0tOPCjWy/files/703b5c3a-ff83-4ce9-8607-fc86d0ac09eb"
+    "value": "简历下载",
+    "url": "#"
   },
   "information": [
     {
       "icon": "EnvelopeIcon",
       "name": "Mail address",
-      "value": "billgates@microsoft.com"
+      "value": "undownding@foxmail.com"
     },
     {
       "icon": "CakeIcon",
-      "name": "66 Years old",
-      "value": "28 october 1955"
+      "name": "35 years old",
+      "value": "1990年10月9日"
     },
     {
       "icon": "DevicePhoneMobileIcon",
       "name": "Phone Number",
-      "value": "+1 (800) 642 7676"
+      "value": "+86 18500192074"
     },
     {
       "icon": "ComputerDesktopIcon",
       "name": "Work type",
-      "value": "Remote or Fulltime"
+      "value": "Half-Remote"
     }
   ],
   "skill": [
-    "C#",
     "JavaScript",
-    "Angular",
     "Vue",
     "CSS",
     "Tailwindcss",
-    "Dart",
-    "PHP",
     "TypeScript",
-    "Laravel",
-    "Flutter",
-    "AngularJS",
-    "Bootstrap",
     "NodeJS",
     "HTML",
-    "jQuery",
-    "Microsoft SQL",
-    "VS Code",
-    "IIS",
     "Git",
     "Windows",
-    "Internet Explorer",
-    "Insomnia"
+    "MySQL",
+    "Postgres",
+    "MongoDB",
+    "ElasticSearch",
+    "Linux",
+    "Docker",
+    "Java",
+    "Kotlin",
+    "OpenAI",
+    "Deepseek"
   ],
   "language": [
+    {
+      "name": "普通话",
+      "code": "zh-CN",
+      "flag": "svg/china.svg",
+      "level": "Native Language"
+    },
+    {
+      "name": "粤语",
+      "code": "zh-CN",
+      "flag": "svg/china.svg",
+      "level": "Native Language"
+    },
     {
       "name": "英语",
       "code": "en-US",
       "flag": "svg/united-states.svg",
-      "level": "Native Language"
-    },
-    {
-      "name": "中文",
-      "code": "zh-CN",
-      "flag": "svg/china.svg",
       "level": "Intermediate"
     }
   ],
@@ -110,20 +104,12 @@
   ],
   "education": [
     {
-      "college": "Harvard University",
-      "collegeLogo": "img/college/harvard.jpg",
-      "course": "Mathematics, law and computer science",
-      "start": "1973",
-      "end": "1975",
-      "url": "https://www.xpeducacao.com.br/pos-graduacao/desenvolvimento-front-end?evento=dev_summit"
-    },
-    {
-      "college": "Lakeside School",
-      "collegeLogo": "img/college/lakeside.jpg",
-      "course": "Technologist in Computer Networks, Network Management and Systems Security",
-      "start": "1963",
-      "end": "1973",
-      "url": ""
+      "college": "深圳职业技术学院",
+      "collegeLogo": "img/college/szpt.png",
+      "course": "通信工程专业",
+      "start": "2009",
+      "end": "2012",
+      "url": "#"
     }
   ],
   "volunteer": [
@@ -139,69 +125,6 @@
     }
   ],
   "certificate": [
-    {
-      "course": "Microsoft Azure Data Engineering Associate (DP-203)",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2000",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/professional-certificates/microsoft-azure-dp-203-data-engineering"
-    },
-    {
-      "course": "Microsoft 365 Fundamentals",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2001",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/specializations/microsoft-365-fundamentals"
-    },
-    {
-      "course": "Microsoft Azure Fundamentals AZ-900 Exam Prep",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2002",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/specializations/microsoft-azure-fundamentals-az-900"
-    },
-    {
-      "course": "Microsoft Azure Data Scientist Associate (DP-100)",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2003",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/professional-certificates/azure-data-scientist"
-    },
-    {
-      "course": "Microsoft Azure AI Fundamentals AI-900 Exam Prep",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2004",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/specializations/microsoft-azure-ai-900-ai-fundamentals"
-    },
-    {
-      "course": "Microsoft Azure Developer Associate (AZ-204)",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2005",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/professional-certificates/azure-developer-associate"
-    },
-    {
-      "course": "Work Smarter with Microsoft Excel",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2006",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/learn/microsoft-excel-work-smarter"
-    }
   ],
   "project": [
     {
