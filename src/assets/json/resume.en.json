@@ -74,15 +74,15 @@
   ],
   "language": [
     {
-      "name": "English",
-      "code": "pt-BR",
+      "name": "英语",
+      "code": "en-US",
       "flag": "svg/united-states.svg",
       "level": "Native Language"
     },
     {
-      "name": "Portuguese",
-      "code": "en-US",
-      "flag": "svg/brazil.svg",
+      "name": "中文",
+      "code": "zh-CN",
+      "flag": "svg/china.svg",
       "level": "Intermediate"
     }
   ],

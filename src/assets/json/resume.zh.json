@@ -3,7 +3,7 @@
     "name": "Bill Gates",
     "job": "Co-chair, Bill & Melinda Gates Foundation",
     "avatar": "img/profile/me.jpg",
-    "aboutMe": "Co-presidente da Bill & Melinda Gates Foundation. Fundador da energia inovadora. Co-fundador da Microsoft. Leitor voraz. Viajante ávido. Blogueiro ativo.",
+    "aboutMe": "Co-chair of the Bill & Melinda Gates Foundation. Founder of Breakthrough Energy. Co-founder of Microsoft. Voracious reader. Avid traveler. Active blogger.",
     "socialNetwork": [
       {
         "name": "Twitter",
@@ -28,22 +28,22 @@
   "information": [
     {
       "icon": "EnvelopeIcon",
-      "name": "Endereço de E-mail",
+      "name": "Mail address",
       "value": "billgates@microsoft.com"
     },
     {
       "icon": "CakeIcon",
-      "name": "66 Anos",
-      "value": "28 Outubro 1955"
+      "name": "66 Years old",
+      "value": "28 october 1955"
     },
     {
       "icon": "DevicePhoneMobileIcon",
-      "name": "Número de telefone",
+      "name": "Phone Number",
       "value": "+1 (800) 642 7676"
     },
     {
       "icon": "ComputerDesktopIcon",
-      "name": "Tipo de trabalho",
+      "name": "Work type",
       "value": "Remote or Fulltime"
     }
   ],
@@ -74,16 +74,16 @@
   ],
   "language": [
     {
-      "name": "English",
-      "code": "pt-BR",
+      "name": "英语",
+      "code": "en-US",
       "flag": "svg/united-states.svg",
-      "level": "Língua nativa"
+      "level": "Native Language"
     },
     {
-      "name": "Portuguese",
-      "code": "en-US",
-      "flag": "svg/brazil.svg",
-      "level": "Intermediário"
+      "name": "中文",
+      "code": "zh-CN",
+      "flag": "svg/china.svg",
+      "level": "Intermediate"
     }
   ],
   "experience": [
@@ -95,7 +95,7 @@
       "workType": "Fulltime",
       "start": "jan 2000",
       "end": "Current",
-      "description": "Guiados pela crença de que toda vida tem valor igual, a Bill & Melinda Gates Foundation trabalha para ajudar todas as pessoas a levar vidas saudáveis e produtivas.Nos países em desenvolvimento, ele se concentra em melhorar a saúde das pessoas e dar -lhes a chance de se elevar da fome e da extrema pobreza.Nos Estados Unidos, busca garantir que todas as pessoas - especialmente aquelas com menos recursos - tenham acesso às oportunidades necessárias para ter sucesso na escola e na vida.Sediada em Seattle, Washington, a fundação é liderada pelo CEO Mark Suzman, sob a direção de co-presidentes Bill Gates e Melinda French Gates e o Conselho de Administração."
+      "description": "Guided by the belief that every life has equal value, the Bill & Melinda Gates Foundation works to help all people lead healthy, productive lives. In developing countries, it focuses on improving people’s health and giving them the chance to lift themselves out of hunger and extreme poverty. In the United States, it seeks to ensure that all people—especially those with the fewest resources—have access to the opportunities they need to succeed in school and life. Based in Seattle, Washington, the foundation is led by CEO Mark Suzman, under the direction of co-chairs Bill Gates and Melinda French Gates and the board of trustees."
     },
     {
       "job": "Breakthrough Energy",
@@ -105,14 +105,14 @@
       "workType": "Fulltime",
       "start": "jan 2015",
       "end": "Current",
-      "description": "A energia inovadora se dedica a ajudar a humanidade a evitar um desastre climático.Por meio de veículos de investimento, programas filantrópicos, defesa de políticas e outras atividades, estamos comprometidos em escalar as tecnologias necessárias para alcançar as emissões líquidas de zero até 2050."
+      "description": "Breakthrough Energy is dedicated to helping humanity avoid a climate disaster. Through investment vehicles, philanthropic programs, policy advocacy, and other activities, we’re committed to scaling the technologies we need to reach net-zero emissions by 2050."
     }
   ],
   "education": [
     {
       "college": "Harvard University",
       "collegeLogo": "img/college/harvard.jpg",
-      "course": "Matemática, Direito e Ciência da Computação",
+      "course": "Mathematics, law and computer science",
       "start": "1973",
       "end": "1975",
       "url": "https://www.xpeducacao.com.br/pos-graduacao/desenvolvimento-front-end?evento=dev_summit"
@@ -120,7 +120,7 @@
     {
       "college": "Lakeside School",
       "collegeLogo": "img/college/lakeside.jpg",
-      "course": "Tecnólogo em redes de computadores, gerenciamento de rede e segurança de sistemas",
+      "course": "Technologist in Computer Networks, Network Management and Systems Security",
       "start": "1963",
       "end": "1973",
       "url": ""
@@ -135,7 +135,7 @@
       "workType": "Remote",
       "start": "January 2000",
       "end": "Current",
-      "description": "O Greenpeace é uma rede de campanha global independente que atua para mudar atitudes e comportamentos, para proteger e conservar o meio ambiente e promover a paz.Compreende 26 organizações independentes de Greenpeace nacional/regional com presença em mais de 55 países da Europa, África, Américas, Ásia e Pacífico, além de uma organização de coordenação e apoio, Greenpeace International."
+      "description": "Greenpeace is an independent global campaigning network that acts to change attitudes and behaviour, to protect and conserve the environment and to promote peace. It comprises 26 independent national/regional Greenpeace organisations with presence in over 55 countries across Europe, Africa, the Americas, Asia and the Pacific, as well as a coordinating and supporting organisation, Greenpeace International."
     }
   ],
   "certificate": [
@@ -144,7 +144,7 @@
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
       "issueDate": "jan de 2000",
-      "expirationDate": "Sem data de validade",
+      "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/professional-certificates/microsoft-azure-dp-203-data-engineering"
     },
@@ -153,7 +153,7 @@
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
       "issueDate": "jan de 2001",
-      "expirationDate": "Sem data de validade",
+      "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/specializations/microsoft-365-fundamentals"
     },
@@ -162,7 +162,7 @@
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
       "issueDate": "jan de 2002",
-      "expirationDate": "Sem data de validade",
+      "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/specializations/microsoft-azure-fundamentals-az-900"
     },
@@ -171,7 +171,7 @@
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
       "issueDate": "jan de 2003",
-      "expirationDate": "Sem data de validade",
+      "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/professional-certificates/azure-data-scientist"
     },
@@ -180,7 +180,7 @@
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
       "issueDate": "jan de 2004",
-      "expirationDate": "Sem data de validade",
+      "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/specializations/microsoft-azure-ai-900-ai-fundamentals"
     },
@@ -189,7 +189,7 @@
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
       "issueDate": "jan de 2005",
-      "expirationDate": "Sem data de validade",
+      "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/professional-certificates/azure-developer-associate"
     },
@@ -198,7 +198,7 @@
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
       "issueDate": "jan de 2006",
-      "expirationDate": "Sem data de validade",
+      "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/learn/microsoft-excel-work-smarter"
     }
@@ -206,7 +206,7 @@
   "project": [
     {
       "name": "Visual Studio Code",
-      "description": "O Código do Visual Studio é um editor de código redefinido e otimizado para criar e depurar aplicativos modernos na Web e em nuvem.",
+      "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
       "language": "Typescript",
       "image": "img/project/vscode.png",
       "stars": "+138k",
@@ -215,7 +215,7 @@
     },
     {
       "name": "TypeScript",
-      "description": "O TypeScript é um idioma para JavaScript em escala de aplicativos.O TypeScript adiciona tipos opcionais ao JavaScript que suportam ferramentas para aplicativos JavaScript em larga escala para qualquer navegador, para qualquer host, em qualquer sistema operacional.O TypeScript compila com JavaScript baseado em padrões.",
+      "description": "TypeScript is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript.",
       "language": "Typescript",
       "image": "img/project/typescript.png",
       "stars": "+85.3k",
