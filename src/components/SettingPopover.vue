@@ -3,6 +3,7 @@ import { Cog6ToothIcon, EllipsisHorizontalIcon } from '@heroicons/vue/24/outline
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue';
 import SettingPopoverTheme from './SettingPopoverTheme.vue';
 import SettingPopoverLanguage from './SettingPopoverLanguage.vue';
+import i18n from '@/i18n';
 </script>
 
 <template>
@@ -17,7 +18,9 @@ import SettingPopoverLanguage from './SettingPopoverLanguage.vue';
         <div class="bg-gray-50 py-4 px-5 dark:bg-night-700">
           <span class="flex items-center gap-2">
             <Cog6ToothIcon class="h-5 w-5 text-gray-500 dark:text-night-200" />
-            <span class="text-sm font-medium text-gray-900 dark:text-night-50"> {{ $t('settings.title') }} </span>
+            <span class="text-sm font-medium text-gray-900 dark:text-night-50">
+              {{ i18n.global.t('settings.title') }}
+            </span>
           </span>
           <!-- <span class="block text-sm text-gray-500"> Start integrating products and tools </span> -->
         </div>

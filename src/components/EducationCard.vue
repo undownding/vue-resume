@@ -3,6 +3,7 @@ import { computed } from 'vue';
 import EducationCardItem from './EducationCardItem.vue';
 import { useResumeStore } from '@/stores/ResumeStore';
 import { storeToRefs } from 'pinia';
+import i18n from '@/i18n';
 
 const resumeStore = useResumeStore();
 const { resume } = storeToRefs(resumeStore);
@@ -14,7 +15,7 @@ const total = computed(() => {
 
 <template>
   <div class="card">
-    <h2 class="mb-5 text-lg font-semibold dark:text-night-50">{{ $t('education') }}</h2>
+    <h2 class="mb-5 text-lg font-semibold dark:text-night-50">{{ i18n.global.t('education') }}</h2>
 
     <EducationCardItem
       v-for="(item, index) in resume.education"

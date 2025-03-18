@@ -2,6 +2,7 @@
 import type { Certificate } from '@/models/Certificate';
 import HeroIcon from './HeroIcon.vue';
 import { getImagePath } from '@/helpers/Helper';
+import i18n from '@/i18n';
 
 defineProps<{ item: Certificate; separator: boolean }>();
 </script>
@@ -19,7 +20,7 @@ defineProps<{ item: Certificate; separator: boolean }>();
           <span class="text-sm font-medium">{{ item.course }}</span>
           <div class="text-xs">{{ item.issueDate }} · {{ item.expirationDate }}</div>
           <div v-if="item.credentialCode" class="text-xs">
-            {{ $t('credential_code') }}
+            {{ i18n.global.t('credential_code') }}
             <span class="rounded-xl bg-primary-500/10 py-1 px-1 text-primary-500">{{ item.credentialCode }}</span>
           </div>
         </div>
@@ -28,7 +29,7 @@ defineProps<{ item: Certificate; separator: boolean }>();
           :href="item.url"
           target="_blank"
           class="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-gray-100 px-2 py-2 text-xs text-gray-400 hover:bg-gray-100 dark:border-night-700 dark:text-night-300 dark:hover:bg-night-700">
-          <span>{{ $t('credential') }}</span>
+          <span>{{ i18n.global.t('credential') }}</span>
           <HeroIcon :icon="'ArrowTopRightOnSquareIcon'" class="h-4 w-4 stroke-2" />
         </a>
       </div>

@@ -4,6 +4,7 @@ import ExperienceCardItem from './ExperienceCardItem.vue';
 import { useResumeStore } from '@/stores/ResumeStore';
 import { storeToRefs } from 'pinia';
 import MyPaginate from './MyPaginate.vue';
+import i18n from '@/i18n';
 
 const itemsPerPage = 3;
 const currentPage = ref(1);
@@ -27,7 +28,7 @@ function onPageChange(page: number) {
 
 <template>
   <div class="card">
-    <h2 class="mb-4 text-lg font-semibold dark:text-night-50">{{ $t('experience') }}</h2>
+    <h2 class="mb-4 text-lg font-semibold dark:text-night-50">{{ i18n.global.t('experience') }}</h2>
     <ExperienceCardItem
       v-for="(item, index) in paginatedItems"
       :key="index"

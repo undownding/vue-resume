@@ -3,6 +3,7 @@ import { RouterLink } from 'vue-router';
 import HeroIcon from './HeroIcon.vue';
 import { useResumeStore } from '@/stores/ResumeStore';
 import { storeToRefs } from 'pinia';
+import i18n from '@/i18n';
 
 const resumeStore = useResumeStore();
 const { resume } = storeToRefs(resumeStore);
@@ -16,8 +17,8 @@ const menu = [
 
 <template>
   <div class="card">
-    <h2 class="mb-4 text-lg font-semibold dark:text-night-50">{{ $t('about') }}</h2>
-    <p class="mb-5 text-sm text-gray-600 dark:text-night-200">
+    <h2 class="mb-4 text-lg font-semibold dark:text-night-50">{{ i18n.global.t('about') }}</h2>
+    <p class="mb-5 text-sm text-gray-600 dark:text-night-200" style="white-space: pre-line">
       {{ resume.profile.aboutMe }}
     </p>
     <!-- <div class="my-5 border-t border-dashed border-gray-200"></div> -->
@@ -28,7 +29,7 @@ const menu = [
           :to="item.route"
           class="inline-flex cursor-pointer items-center gap-1 rounded-lg border-2 border-gray-100 px-2 py-1.5 text-xs font-medium text-gray-400 hover:border-primary-500 hover:bg-primary-500 hover:text-white dark:border-night-700 dark:text-night-400 dark:hover:border-primary-500 dark:hover:bg-primary-500/20 dark:hover:text-primary-500">
           <HeroIcon :icon="item.icon" class="hidden h-4 w-4 sm:block" />
-          <span>{{ $t(item.name) }}</span>
+          <span>{{ i18n.global.t(item.name) }}</span>
         </router-link>
       </li>
     </ul>

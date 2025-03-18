@@ -4,6 +4,7 @@ import ProjectCardItem from './ProjectCardItem.vue';
 import { useResumeStore } from '@/stores/ResumeStore';
 import { storeToRefs } from 'pinia';
 import MyPaginate from './MyPaginate.vue';
+import i18n from '@/i18n';
 
 const itemsPerPage = 3;
 const currentPage = ref(1);
@@ -26,7 +27,7 @@ function onPageChange(page: number) {
 </script>
 <template>
   <div class="card">
-    <h2 class="mb-5 text-lg font-semibold dark:text-night-50">{{ $t('project') }}</h2>
+    <h2 class="mb-5 text-lg font-semibold dark:text-night-50">{{ i18n.global.t('project') }}</h2>
     <!-- Project 1 -->
     <ProjectCardItem
       v-for="(item, index) of paginatedItems"

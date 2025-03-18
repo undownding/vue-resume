@@ -6,6 +6,7 @@ import { ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { getImagePath } from '@/helpers/Helper';
 import type { Language } from '@/models/Language';
+import i18n from '@/i18n';
 
 const languages: Language[] = [
   { name: 'settings.zh', code: 'zh-CN', flag: 'svg/china.svg' },
@@ -22,6 +23,7 @@ const resume = useResumeStore();
  * and set locale
  */
 watch(language, (language) => {
+  console.log('Language changed to:', language);
   locale.value = language!.code;
   localStorage.locale = locale.value;
   resume.loadResume();
@@ -32,12 +34,12 @@ watch(language, (language) => {
   <Listbox v-model="language">
     <div class="relative">
       <ListboxLabel class="mb-1 block text-sm font-medium leading-5 text-gray-700 dark:text-night-50">
-        {{ $t('language') }}
+        {{ i18n.global.t('language') }}
       </ListboxLabel>
       <ListboxButton
         class="relative flex w-full cursor-default items-center gap-2 rounded-lg bg-gray-100 py-2 pl-2 pr-10 text-left text-sm focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-primary-300 dark:bg-night-500">
         <img :src="getImagePath(language.flag)" alt="country flag" class="h-6 w-6 rounded-full" />
-        <span class="block truncate text-gray-500 dark:text-night-200">{{ $t(language.name) }}</span>
+        <span class="block truncate text-gray-500 dark:text-night-200">{{ i18n.global.t(language.name) }}</span>
         <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
           <ChevronUpDownIcon class="h-5 w-5 text-gray-400 dark:text-night-300" aria-hidden="true" />
         </span>
@@ -64,7 +66,7 @@ watch(language, (language) => {
               ]">
               <img :src="getImagePath(language.flag)" alt="Avatar" class="h-6 w-6 rounded-full shadow-sm" />
               <span :class="[selected ? 'font-medium' : 'font-normal', 'block truncate ']">
-                {{ $t(language.name) }}
+                {{ i18n.global.t(language.name) }}
               </span>
               <span v-if="selected" class="absolute inset-y-0 right-4 flex items-center pl-3 text-primary-500">
                 <CheckIcon class="h-5 w-5" aria-hidden="true" />

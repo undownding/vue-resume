@@ -3,11 +3,12 @@ import { useResumeStore } from '@/stores/ResumeStore';
 import { storeToRefs } from 'pinia';
 const resumeStore = useResumeStore();
 const { resume } = storeToRefs(resumeStore);
+import i18n from '@/i18n';
 </script>
 
 <template>
   <div class="card">
-    <h2 class="mb-4 text-lg font-semibold dark:text-night-50">{{ $t('skills') }}</h2>
+    <h2 class="mb-4 text-lg font-semibold dark:text-night-50">{{ i18n.global.t('skills') }}</h2>
     <div class="-m-2 flex flex-wrap">
       <span
         v-for="(value, index) in resume.skill"

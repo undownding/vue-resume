@@ -3,13 +3,14 @@ import InfoCardItem from './InfoCardItem.vue';
 import HeroIcon from './HeroIcon.vue';
 import { useResumeStore } from '@/stores/ResumeStore';
 import { storeToRefs } from 'pinia';
+import i18n from '@/i18n';
 const resumeStore = useResumeStore();
 const { resume } = storeToRefs(resumeStore);
 </script>
 
 <template>
   <div class="card">
-    <h2 class="mb-4 text-lg font-semibold dark:text-night-50">{{ $t('resume') }}</h2>
+    <h2 class="mb-4 text-lg font-semibold dark:text-night-50">{{ i18n.global.t('resume') }}</h2>
     <InfoCardItem :key="0" :item="resume.cv">
       <a
         :href="resume.cv.url"

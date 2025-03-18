@@ -4,6 +4,7 @@ import CertificateCardItem from './CertificateCardItem.vue';
 import { useResumeStore } from '@/stores/ResumeStore';
 import { storeToRefs } from 'pinia';
 import MyPaginate from './MyPaginate.vue';
+import i18n from '@/i18n';
 
 const itemsPerPage = 3;
 const currentPage = ref(1);
@@ -27,7 +28,7 @@ function onPageChange(page: number) {
 
 <template>
   <div class="card">
-    <h2 class="mb-5 text-lg font-semibold dark:text-night-50">{{ $t('license') }}</h2>
+    <h2 class="mb-5 text-lg font-semibold dark:text-night-50">{{ i18n.global.t('license') }}</h2>
     <CertificateCardItem
       v-for="(item, index) of paginatedItems"
       :key="index"

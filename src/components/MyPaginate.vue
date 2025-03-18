@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import { computed, defineEmits, ref } from 'vue';
+import { computed, ref } from 'vue';
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
   ChevronDoubleLeftIcon,
   ChevronDoubleRightIcon,
 } from '@heroicons/vue/20/solid';
+import i18n from '@/i18n';
 
 const props = defineProps<{
   totalItems: number;
@@ -109,11 +110,11 @@ const lastItem = computed(() => {
       <button :disabled="isInFirstPage" @click="prevPage()" class="arrow-button rounded-lg">
         <span class="sr-only">Previous</span>
         <ChevronLeftIcon class="h-5 w-5" aria-hidden="true" />
-        <span class="pr-2 text-xs"> {{ $t('paginate.previous_page') }} </span>
+        <span class="pr-2 text-xs"> {{ i18n.global.t('paginate.previous_page') }} </span>
       </button>
       <button @click="nextPage()" :disabled="isInLastPage" class="arrow-button rounded-lg">
         <span class="sr-only">Next</span>
-        <span class="pl-2 text-xs"> {{ $t('paginate.next_page') }} </span>
+        <span class="pl-2 text-xs"> {{ i18n.global.t('paginate.next_page') }} </span>
         <ChevronRightIcon class="h-5 w-5" aria-hidden="true" />
       </button>
     </div>
@@ -121,17 +122,17 @@ const lastItem = computed(() => {
     <div class="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
       <div>
         <p class="text-sm text-gray-700 dark:text-night-300">
-          {{ $t('paginate.count', { first: firstItem + 1, last: lastItem, total: totalItems }) }}
+          {{ i18n.global.t('paginate.count', { first: firstItem + 1, last: lastItem, total: totalItems }) }}
         </p>
       </div>
       <div>
         <nav class="isolate inline-flex gap-2 -space-x-px" aria-label="Pagination">
           <button :disabled="isInFirstPage" @click="firstPage()" class="arrow-button rounded-full">
-            <span class="sr-only">{{ $t('paginate.first_page') }}</span>
+            <span class="sr-only">{{ i18n.global.t('paginate.first_page') }}</span>
             <ChevronDoubleLeftIcon class="h-5 w-5" aria-hidden="true" />
           </button>
           <button :disabled="isInFirstPage" @click="prevPage()" class="arrow-button rounded-lg">
-            <span class="sr-only">{{ $t('paginate.previous_page') }}</span>
+            <span class="sr-only">{{ i18n.global.t('paginate.previous_page') }}</span>
             <ChevronLeftIcon class="h-5 w-5" aria-hidden="true" />
           </button>
 
@@ -148,11 +149,11 @@ const lastItem = computed(() => {
           </button>
 
           <button @click="nextPage()" :disabled="isInLastPage" class="arrow-button rounded-lg">
-            <span class="sr-only">{{ $t('paginate.next_page') }}</span>
+            <span class="sr-only">{{ i18n.global.t('paginate.next_page') }}</span>
             <ChevronRightIcon class="h-5 w-5" aria-hidden="true" />
           </button>
           <button :disabled="isInLastPage" @click="lastPage()" class="arrow-button rounded-full">
-            <span class="sr-only">{{ $t('paginate.last_page') }}</span>
+            <span class="sr-only">{{ i18n.global.t('paginate.last_page') }}</span>
             <ChevronDoubleRightIcon class="h-5 w-5" aria-hidden="true" />
           </button>
         </nav>

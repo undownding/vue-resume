@@ -2,6 +2,7 @@
 import { Switch } from '@headlessui/vue';
 import { useThemeStore } from '@/stores/ThemeStore';
 const theme = useThemeStore();
+import i18n from '@/i18n';
 /**
  * Watch theme changes
  */
@@ -14,8 +15,8 @@ theme.$subscribe(() => {
   <div
     class="flex items-center justify-between rounded-lg transition duration-150 ease-in-out focus:outline-none focus-visible:ring focus-visible:ring-primary-500 focus-visible:ring-opacity-50">
     <div class="mr-4">
-      <p class="text-sm font-medium text-gray-900 dark:text-night-50">{{ $t('settings.theme') }}</p>
-      <p class="text-sm text-gray-500 dark:text-night-300">{{ $t('settings.dark_mode') }}</p>
+      <p class="text-sm font-medium text-gray-900 dark:text-night-50">{{ i18n.global.t('settings.theme') }}</p>
+      <p class="text-sm text-gray-500 dark:text-night-300">{{ i18n.global.t('settings.dark_mode') }}</p>
     </div>
     <Switch
       v-model="theme.darkMode"
