@@ -82,24 +82,34 @@
   ],
   "experience": [
     {
-      "job": "Bill & Melinda Gates Foundation",
-      "company": "Co-chair",
-      "companyLogo": "img/company/co-chair.jpg",
-      "location": "New York",
-      "workType": "Fulltime",
-      "start": "jan 2000",
-      "end": "Current",
-      "description": "Guided by the belief that every life has equal value, the Bill & Melinda Gates Foundation works to help all people lead healthy, productive lives. In developing countries, it focuses on improving people’s health and giving them the chance to lift themselves out of hunger and extreme poverty. In the United States, it seeks to ensure that all people—especially those with the fewest resources—have access to the opportunities they need to succeed in school and life. Based in Seattle, Washington, the foundation is led by CEO Mark Suzman, under the direction of co-chairs Bill Gates and Melinda French Gates and the board of trustees."
+      "job": "全栈开发工程师",
+      "company": "Sprout Inc.",
+      "companyLogo": "img/company/founder.jpg",
+      "location": "上海",
+      "workType": "半远程",
+      "start": "2024年11月",
+      "end": "目前",
+      "description": "1.对现有的 SpringBoot 后端开发新功能以及日常运维工作；\n2.维护 App 项目的后台面板，适配新增的功能；\n3.使用 vue 3 + tailwind css 开发其他必要的 h5 页面。"
     },
     {
-      "job": "Breakthrough Energy",
-      "company": "Founder",
+      "job": "全栈开发工程师",
+      "company": "FIPOCHINA",
       "companyLogo": "img/company/founder.jpg",
-      "location": "New York",
-      "workType": "Fulltime",
-      "start": "jan 2015",
-      "end": "Current",
-      "description": "Breakthrough Energy is dedicated to helping humanity avoid a climate disaster. Through investment vehicles, philanthropic programs, policy advocacy, and other activities, we’re committed to scaling the technologies we need to reach net-zero emissions by 2050."
+      "location": "上海",
+      "workType": "全职",
+      "start": "2022年1月",
+      "end": "2024年9月",
+      "description": "1.使用 NestJs + GraphQL 开发内部系统的新功能；\n2.对服务器的 ZFS 存储池；\n3.内部 samba 网盘的账号管理，权限分配，日常巡检等等。"
+    },
+    {
+      "job": "全栈开发工程师",
+      "company": "杭州星奥传媒有限公司",
+      "companyLogo": "img/company/founder.jpg",
+      "location": "杭州",
+      "workType": "全职",
+      "start": "2020年10月",
+      "end": "2022年9月",
+      "description": "1.采用 NestJs/MongoDB/redis 等技术栈保障数十万用户级别的网站正常运作，并依据业务需求推进网站系统开发；\n2.接入飞书机器人开发各种内部/外部合作需求；\n3.开发其他前端/移动端其他对应业务。"
     }
   ],
   "education": [

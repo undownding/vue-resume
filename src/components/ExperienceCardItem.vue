@@ -38,7 +38,7 @@ defineProps<{ item: Experience; separator: boolean }>();
           </div>
         </div>
       </div>
-      <p class="text-sm text-gray-600 dark:text-night-300" v-html="item.description"></p>
+      <p class="text-sm text-gray-600 dark:text-night-300 whitespace-pre-line" v-html="item.description"></p>
       <div v-if="separator" class="border-b border-dashed border-gray-200 dark:border-night-600"></div>
     </div>
   </div>
