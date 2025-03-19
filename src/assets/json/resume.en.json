@@ -112,20 +112,8 @@
       "url": "#"
     }
   ],
-  "volunteer": [
-    {
-      "job": "Team Coordinator",
-      "company": "Green Peace",
-      "companyLogo": "img/company/green-peace.jpg",
-      "location": "New York",
-      "workType": "Remote",
-      "start": "January 2000",
-      "end": "Current",
-      "description": "Greenpeace is an independent global campaigning network that acts to change attitudes and behaviour, to protect and conserve the environment and to promote peace. It comprises 26 independent national/regional Greenpeace organisations with presence in over 55 countries across Europe, Africa, the Americas, Asia and the Pacific, as well as a coordinating and supporting organisation, Greenpeace International."
-    }
-  ],
-  "certificate": [
-  ],
+  "volunteer": [],
+  "certificate": [],
   "project": [
     {
       "name": "Visual Studio Code",

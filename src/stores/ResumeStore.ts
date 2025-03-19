@@ -6,7 +6,7 @@ import enUS from '@/assets/json/resume.en.json';
 
 const languages = [
   { code: 'en-US', data: enUS },
-  { code: 'pt-BR', data: zhCN },
+  { code: 'zh-CN', data: zhCN },
 ];
 
 export const useResumeStore = defineStore('resume', {
