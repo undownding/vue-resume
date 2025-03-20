@@ -1,33 +1,33 @@
 {
-  "resume": "Resume",
-  "information": "Informations",
-  "skills": "Skills",
-  "language": "Language",
-  "about": "About me",
-  "experience": "Experience",
-  "volunteer": "Volunteer",
-  "education": "Education",
-  "license": "Licenses and Certificates",
-  "project": "Projects",
-  "credential": "Credential",
-  "credential_code": "Credential Code",
+  "resume": "简历",
+  "information": "个人信息",
+  "skills": "技能",
+  "language": "语言",
+  "about": "关于我",
+  "experience": "经历",
+  "volunteer": "志愿经历",
+  "education": "教育背景",
+  "license": "证书与执照",
+  "project": "项目",
+  "credential": "证书",
+  "credential_code": "证书编号",
   "settings": {
-    "title": "Settings",
-    "theme": "Theme",
-    "dark_mode": "Enable dark mode?",
+    "title": "设置",
+    "theme": "主题",
+    "dark_mode": "启用深色模式？",
     "zh": "中文",
     "en": "English"
   },
   "menu": {
-    "experience": "Experience",
-    "education": "Education",
-    "project": "Projects"
+    "experience": "经历",
+    "education": "教育背景",
+    "project": "项目"
   },
   "paginate": {
-    "count": "Showing {first} to {last} of {total} results",
-    "previous_page": "Previous page",
-    "next_page": "Next page",
-    "first_page": "First page",
-    "last_page": "last page"
+    "count": "显示第{first}至{last}条，共{total}条结果",
+    "previous_page": "上一页",
+    "next_page": "下一页",
+    "first_page": "首页",
+    "last_page": "末页"
   }
 }

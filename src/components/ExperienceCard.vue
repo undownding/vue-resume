@@ -6,7 +6,7 @@ import { storeToRefs } from 'pinia';
 import MyPaginate from './MyPaginate.vue';
 import i18n from '@/i18n';
 
-const itemsPerPage = 3;
+const itemsPerPage = 4;
 const currentPage = ref(1);
 const resumeStore = useResumeStore();
 const { resume } = storeToRefs(resumeStore);

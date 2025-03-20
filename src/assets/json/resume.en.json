@@ -3,7 +3,7 @@
     "name": "赵日天",
     "job": "Full-stack Developer",
     "avatar": "img/profile/me.jpg",
-    "aboutMe": "你好，我是日天。我是一名全栈开发工程师，近年主要活跃在 Typescript 后端开发领域，曾主导过数万日活在线业务系统的后端设计。早年间使用 Kotlin 参与过一些 Android 应用的开发，所以现在偶尔会在必要时帮忙维护 Springboot 项目的代码。近期在钻研如何在大语言模型中做 RAG 优化，希望能让这个世界变得美好一点 : ) 作为一个全栈开发我觉得可能做个网页作为展示自己的方式比较有说服力（主要觉得还是写代码比写简历舒服多了），所以就做了这个页面。",
+    "aboutMe": "你好，我是日天。我是一名全栈开发工程师，近年主要活跃在 Typescript 后端开发领域，曾主导过数万日活在线业务系统的后端设计。\n早年间使用 Kotlin 参与过一些 Android 应用的开发，所以现在偶尔会在必要时帮忙维护 Springboot 项目的代码。\n近期在钻研如何在大语言模型中做 RAG 优化，希望能让这个世界变得美好一点 : ) \n作为一个全栈开发我觉得可能做个网页作为展示自己的方式比较有说服力（主要觉得还是写代码比写简历舒服多了），所以就做了这个页面。",
     "socialNetwork": [
       {
         "name": "GitHub",
@@ -84,7 +84,7 @@
     {
       "job": "全栈开发工程师",
       "company": "Sprout Inc.",
-      "companyLogo": "img/company/founder.jpg",
+      "companyLogo": "img/company/lenti.webp",
       "location": "上海",
       "workType": "半远程",
       "start": "2024年11月",
@@ -92,24 +92,64 @@
       "description": "1.对现有的 SpringBoot 后端开发新功能以及日常运维工作；\n2.维护 App 项目的后台面板，适配新增的功能；\n3.使用 vue 3 + tailwind css 开发其他必要的 h5 页面。"
     },
     {
-      "job": "全栈开发工程师",
+      "job": "后端工程师",
       "company": "FIPOCHINA",
-      "companyLogo": "img/company/founder.jpg",
+      "companyLogo": "img/company/fipo.svg",
       "location": "上海",
       "workType": "全职",
       "start": "2022年1月",
       "end": "2024年9月",
-      "description": "1.使用 NestJs + GraphQL 开发内部系统的新功能；\n2.对服务器的 ZFS 存储池；\n3.内部 samba 网盘的账号管理，权限分配，日常巡检等等。"
+      "description": "1.使用 NestJs + GraphQL 开发内部系统的新功能；\n2.管理生产环境的 ZFS 存储池；\n3.内部 samba 网盘的账号管理，权限分配，日常巡检等等。"
     },
     {
       "job": "全栈开发工程师",
       "company": "杭州星奥传媒有限公司",
-      "companyLogo": "img/company/founder.jpg",
+      "companyLogo": "img/company/ysjf.png",
       "location": "杭州",
       "workType": "全职",
       "start": "2020年10月",
       "end": "2022年9月",
       "description": "1.采用 NestJs/MongoDB/redis 等技术栈保障数十万用户级别的网站正常运作，并依据业务需求推进网站系统开发；\n2.接入飞书机器人开发各种内部/外部合作需求；\n3.开发其他前端/移动端其他对应业务。"
+    },
+    {
+      "job": "Android 工程师",
+      "company": "科大讯飞股份有限公司",
+      "companyLogo": "img/company/iflytek.jfif",
+      "location": "广州",
+      "workType": "全职",
+      "start": "2020年5月",
+      "end": "2020年9月",
+      "description": "1.根据业务方需求开发 Android App 以及 React Native 跨平台应用开发；\n2.根据设备定制需求对 Linux Kernel 进行二次开发；\n3.内部 CI/CD 系统调优、二次开发。\n"
+    },
+    {
+      "job": "Android 专家",
+      "company": "杭州酷链科技有限公司",
+      "companyLogo": "img/company/bitrabbit.jpg",
+      "location": "杭州",
+      "workType": "全职",
+      "start": "2018年5月",
+      "end": "2020年1月",
+      "description": "1.使用 Kotlin 开发数字货币交易所的 Android 客户端；\n2.对接外部交易所 App 合作定制需求；\n3.开发/维护论坛的手机客户端。"
+    },
+    {
+      "job": "全栈工程师",
+      "company": "スジテク合同会社 (Suji Tech, LLC)",
+      "companyLogo": "img/company/sujitech.png",
+      "location": "上海",
+      "workType": "全职",
+      "start": "2016年12月",
+      "end": "2018年5月",
+      "description": "1.短视频客户端 nekome 的开发；\n2.负责内部系统以及对外的部分 Web 网页开发。"
+    },
+    {
+      "job": "ezbuy",
+      "company": "高级 Android 工程师",
+      "companyLogo": "img/company/ezbuy.png",
+      "location": "上海",
+      "workType": "全职",
+      "start": "2016年1月",
+      "end": "2016年10月",
+      "description": "参与 EzBuy Android 客户端的日常开发工作以及制定工作计划，以及负责 CI 系统的 Docker 镜像维护 / 架构设计 / 各种代码优化\n以及重构旧代码等工作内容。"
     }
   ],
   "education": [

@@ -18,7 +18,7 @@ const menu = [
 <template>
   <div class="card">
     <h2 class="mb-4 text-lg font-semibold dark:text-night-50">{{ i18n.global.t('about') }}</h2>
-    <p class="mb-5 text-sm text-gray-600 dark:text-night-200" style="white-space: pre-line">
+    <p class="mb-5 text-sm text-gray-600 dark:text-night-200 whitespace-pre-line">
       {{ resume.profile.aboutMe }}
     </p>
     <!-- <div class="my-5 border-t border-dashed border-gray-200"></div> -->
