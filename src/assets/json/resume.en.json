@@ -1,13 +1,17 @@
 {
   "profile": {
     "name": "赵日天",
-    "job": "Full-stack Developer",
+    "job": "全栈工程师",
     "avatar": "img/profile/me.jpg",
     "aboutMe": "你好，我是日天。我是一名全栈开发工程师，近年主要活跃在 Typescript 后端开发领域，曾主导过数万日活在线业务系统的后端设计。\n早年间使用 Kotlin 参与过一些 Android 应用的开发，所以现在偶尔会在必要时帮忙维护 Springboot 项目的代码。\n近期在钻研如何在大语言模型中做 RAG 优化，希望能让这个世界变得美好一点 : ) \n作为一个全栈开发我觉得可能做个网页作为展示自己的方式比较有说服力（主要觉得还是写代码比写简历舒服多了），所以就做了这个页面。",
     "socialNetwork": [
       {
         "name": "GitHub",
-        "url": "https://github.com/undownding"
+        "url": "https://github.com/undownding/"
+      },
+      {
+        "name": "Blog",
+        "url": "https://blog.undownding.dev/"
       }
     ]
   },
@@ -36,7 +40,7 @@
     {
       "icon": "ComputerDesktopIcon",
       "name": "Work type",
-      "value": "Half-Remote"
+      "value": "半远程"
     }
   ],
   "skill": [
@@ -166,22 +170,18 @@
   "certificate": [],
   "project": [
     {
-      "name": "Visual Studio Code",
-      "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
+      "name": "闪电分镜",
+      "description": "闪电分镜，影视飓风旗下的影视策划一站式解决方案\n\n\n【分镜制作】\n\n你可以快速的填写分镜，自由设置镜头的各种参数，还可以通过手绘的方式绘制分镜\n\n\n【故事板】\n\n完成分镜制作后，使用故事板功能预览自己的镜头语言并进行查缺补漏\n\n\n【拍摄计划】\n\n镜头确认后，可以根据镜头的拍摄场地、拍摄时间等因素制定不同的拍摄计划，并将镜头自由的移动至各种计划中，实现对于拍摄人力物力的节省\n\n\n【拍摄通告】\n\n编辑拍摄通告，并导出给自己的团队，实现团队高效的配合\n\n\n【闪电场记】\n\n可以使用电子场记板实现打板等功能，并使用电子场记本进行快速的场记",
       "language": "Typescript",
-      "image": "img/project/vscode.png",
-      "stars": "+138k",
-      "forks": "23.8k",
-      "url": "https://github.com/microsoft/vscode"
+      "image": "img/project/mediastory.webp",
+      "url": "https://www.mediastory.cc/#/"
     },
     {
-      "name": "TypeScript",
-      "description": "TypeScript is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript.",
-      "language": "Typescript",
-      "image": "img/project/typescript.png",
-      "stars": "+85.3k",
-      "forks": "11.1k",
-      "url": "https://github.com/microsoft/TypeScript"
+      "name": "Lenti",
+      "description": "Render photos in your favorite fandom. Prompt with AI emoji. View your results as holographic cards, tile your phone to see your photo shift between real life and your newly created AI world. Blend your reality with a fandom in seconds\n\n\nHOW IT WORKS\n\n1. Choose a fandom\n\n2. Snap a photo\n\n3. Choose up to 3 AI emoji\n\n4. See your results in holographic cards",
+      "language": "Kotlin",
+      "image": "img/company/lenti.webp",
+      "url": "https://apps.apple.com/gb/app/lentil-live-in-your-fav-anime/id6475627383"
     }
   ]
 }
