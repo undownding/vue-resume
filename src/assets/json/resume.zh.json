@@ -93,7 +93,7 @@
       "workType": "半远程",
       "start": "2024年11月",
       "end": "目前",
-      "description": "1.对现有的 SpringBoot 后端开发新功能以及日常运维工作；\n2.维护 App 项目的后台面板，适配新增的功能；\n3.使用 vue 3 + tailwind css 开发其他必要的 h5 页面。"
+      "description": "1.对现有的 SpringBoot 后端开发新功能以及日常运维工作；\n2.使用 typescript 开发新业务 API\n3.维护 App 项目的后台面板，适配新增的功能；\n4.使用 vue 3 + tailwind css 开发其他必要的 h5 页面。"
     },
     {
       "job": "后端工程师",
