@@ -179,7 +179,7 @@
     {
       "name": "Lenti",
       "description": "Render photos in your favorite fandom. Prompt with AI emoji. View your results as holographic cards, tile your phone to see your photo shift between real life and your newly created AI world. Blend your reality with a fandom in seconds\n\n\nHOW IT WORKS\n\n1. Choose a fandom\n\n2. Snap a photo\n\n3. Choose up to 3 AI emoji\n\n4. See your results in holographic cards",
-      "language": "Kotlin/Typescipt"
+      "language": "Kotlin/Typescipt",
       "image": "img/company/lenti.webp",
       "url": "https://apps.apple.com/gb/app/lentil-live-in-your-fav-anime/id6475627383"
     },
