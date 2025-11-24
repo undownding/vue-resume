@@ -3,7 +3,7 @@
     "name": "赵日天",
     "job": "全栈工程师",
     "avatar": "img/profile/me.jpg",
-    "aboutMe": "你好，我是日天。我是一名全栈开发工程师，近年主要活跃在 Typescript 后端开发领域，曾主导过数万日活在线业务系统的后端设计。\n早年间使用 Kotlin 参与过一些 Android 应用的开发，所以现在偶尔会在必要时帮忙维护 Springboot 项目的代码。\n近期在钻研如何在大语言模型中做 RAG 优化，希望能让这个世界变得美好一点 : ) \n作为一个全栈开发我觉得可能做个网页作为展示自己的方式比较有说服力（主要觉得还是写代码比写简历舒服多了），所以就做了这个页面。",
+    "aboutMe": "你好，我是日天。我是一名全栈开发工程师，近年主要活跃在 Typescript 后端开发领域，曾主导过数万日活在线业务系统的后端设计。\n近期在钻研 MCP 与 Agent 的开发，希望能使用 AI 帮助这个世界变得更美好一点。 : ) \n作为一个全栈开发我觉得可能做个网页作为展示自己的方式比较有说服力（主要觉得还是写代码比写简历舒服多了），所以就做了这个页面。",
     "socialNetwork": [
       {
         "name": "GitHub",
@@ -93,7 +93,7 @@
       "workType": "半远程",
       "start": "2024年11月",
       "end": "目前",
-      "description": "1.对现有的 SpringBoot 后端开发新功能以及日常运维工作；\n2.使用 typescript 开发新业务 API\n3.维护 App 项目的后台面板，适配新增的功能；\n4.使用 vue 3 + tailwind css 开发其他必要的 h5 页面。"
+      "description": "1.开发项目所需的 Agent 以及 MCP 工具；\n2.使用 typescript 开发新业务 API\n3.维护 App 项目的后台面板，适配新增的功能；\n4.使用 vue 3 + tailwind css 开发其他必要的 h5 页面。"
     },
     {
       "job": "后端工程师",
@@ -179,9 +179,16 @@
     {
       "name": "Lenti",
       "description": "Render photos in your favorite fandom. Prompt with AI emoji. View your results as holographic cards, tile your phone to see your photo shift between real life and your newly created AI world. Blend your reality with a fandom in seconds\n\n\nHOW IT WORKS\n\n1. Choose a fandom\n\n2. Snap a photo\n\n3. Choose up to 3 AI emoji\n\n4. See your results in holographic cards",
-      "language": "Kotlin",
+      "language": "Kotlin/Typescipt"
       "image": "img/company/lenti.webp",
       "url": "https://apps.apple.com/gb/app/lentil-live-in-your-fav-anime/id6475627383"
+    },
+    {
+      "name": "Loopy Live Wallpaper",
+      "description": "Turn photos into stunning Live Wallpapers with Loopy.\n\nUpload and animate any still images, Loopy brings your favorite characters to life, all formatted perfectly for iOS lock screens.\n• Animate images with one tap\n• Auto-optimized for iOS wallpaper settings\n• Loopy Gallery (coming soon) for endless inspiration\n\nCreate personalized, animated wallpapers in seconds. ",
+      "language": "Typescipt",
+      "image": "img/company/loopy.webp",
+      "url": "https://apps.apple.com/us/app/loopy-live-wallpaper/id6748057024"
     }
   ]
 }
